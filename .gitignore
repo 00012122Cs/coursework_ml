@@ -1,0 +1,35 @@
+
+---
+
+# ✅ `.gitignore` (Optimized for ML + Python + Streamlit)
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Data (optional)
+data/*.zip
+data/*.json
