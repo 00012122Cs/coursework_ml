@@ -33,15 +33,6 @@ coursework_ml/
 │   ├── 01_eda.ipynb                 # Exploratory data analysis
 │   ├── 02_preprocessing.ipynb       # Data cleaning, feature engineering, exports
 │   └── 03_model_training.ipynb      # Pipelines, tuning, evaluation, model saving
-├── streamlit_app/
-│   ├── Home.py                      # Landing page
-│   ├── utils.py                     # Shared preprocessing/model utilities
-│   └── pages/
-│       ├── 1_📊_EDA.py
-│       ├── 2_⚙️_Preprocessing.py
-│       ├── 3_🤖_Model_Training.py
-│       └── 4_📈_Evaluation.py
-├── models/                          # Saved pipeline + metrics (generated after training)
 ├── requirements.txt
 └── README.md
 ```
@@ -76,5 +67,3 @@ coursework_ml/
 - **Notebooks**: Document EDA, preprocessing with feature engineering, and model development with MAE/RMSE/R² comparisons plus GridSearchCV tuning.
 - **Models**: Best-performing pipeline persisted as `models/final_model.pkl` together with `models/model_performance.csv`.
 - **App**: Multi-page Streamlit experience for analysis, preprocessing inspection, training, and evaluation/deployment.
-
-Follow the notebooks and app to regenerate every artefact and align with WIUT coursework requirements.
